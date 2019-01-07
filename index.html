@@ -38,10 +38,6 @@ body {
     font-size: 1.5vw;
   animation: blink 4s infinite; 
 }
-.shake-slow {
-    font-size: 1.5vw;
-  animation: blink 4s infinite; 
-}
 @keyframes blink{
 	0%{color: #373737;}
 	55.00%{color: white;}
@@ -70,7 +66,7 @@ a:link { color:#808080; }
 }
 </style>
 <body>
-<logo class="blink shake-slow">
+<logo class="blink">
 <pre>
   _     __                     __             
  | |   /_ |                   / _|            
@@ -82,7 +78,7 @@ a:link { color:#808080; }
                                               
 </pre></logo>
 		<h2>It's quite empty here.</h2>
-		<h4><p id="subtitle"></p></h4><div>
+		<h4><p id="subtitle shake-slow"></p></h4><div>
 </div>
 <audio autoplay loop id="hate">
   <source src="/src/hate.mp3">
