@@ -124,9 +124,9 @@ document.getElementById('subtitle').innerHTML = subtitle;
 </script>
 <!-- Simpleton browser anticheat -->
 <script>
-if ("webkitAppearance" in document.body.style) {
+var  isChrome = !!window.chrome;
+if (isChrome) {
 	window.location.href = window.location.href.replace('://l1nux.fun','://www.youtube.com/watch?v=G9odVHfew-k');
-	}
 }
 </script>
 </body>
