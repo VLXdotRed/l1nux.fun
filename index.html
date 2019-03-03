@@ -1,5 +1,57 @@
-<!doctype html>
 <html lang="en">
+<style>
+body {
+  background: black;
+  font-family: monospace;
+  text-align: center;
+}
+@-ms-viewport{
+  width: device-width;
+}
+
+h5 {
+  font-family: monospace;
+  color: white;
+}
+
+h3 {
+  font-family: monospace;
+  color: white;
+}
+
+
+h2 {
+  font-family: monospace;
+  color: white;
+}
+
+	.Stuff
+{
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width:100%;
+}
+
+}
+.btr {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.btl {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+a:visited { color:#808080; }
+a:link { color:#808080; }
+}
+</style>
 <head>
 	<title>L1nux.fun</title>
 	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
@@ -11,109 +63,19 @@
 	<meta name='mobile-web-app-capable' content='yes'>
 	<meta name='apple-mobile-web-app-capable' content='yes'>
 	<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
-	</head>
-
-<style>
-blink {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-@-ms-viewport{
-  width: device-width;
-}
-body {
-
-  font-family: monospace;
-  text-align: center;
-  background-color: #373737;
- }
-	.Stuff
-{
-     position: absolute;
-     margin: auto;
-     top: 0;
-     right: 0;
-     bottom: 0;
-     left: 0;
-	 width:100%;
-}
-  	.btr {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-  	.btl {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-.blink {
-    font-size: 1.5vw;
-  animation: blink 4s infinite; 
-}
-@keyframes blink{
-	0%{color: #373737;}
-	55.00%{color: white;}
-	100.00%{color: #373737;}
-}
-.kofi {  
-  animation: kofifast 4s infinite; 
-}
-@keyframes kofifast{
-	font-family: monospace;
-	0%{color: #373737;}
-	55.00%{color: white;}
-	100.00%{color: #373737;}
-}
-}
-h1 {
-  font-family: monospace;
-  color: white;
-}
-h2 {
-  font-family: monospace;
-  color: white;
-}
-h4 {
-  font-family: monospace;
-  color: white;
-
-}
-a:visited { color:#808080; }
-a:link { color:#808080; }
-}
-</style>
+</head>
 <body>
-<div id="preloader"></div>
-<logo class="blink">
-<pre>
-  _     __                     __             
- | |   /_ |                   / _|            
- | |    | |_ __  _   ___  __ | |_ _   _ _ __  
- | |    | | '_ \| | | \ \/ / |  _| | | | '_ \ 
- | |____| | | | | |_| |>  < _| | | |_| | | | |
- |______|_|_| |_|\__,_/_/\_(_)_|  \__,_|_| |_|
-                                              
-                                              
-</pre></logo>
-	<h2><p id="subtitle"></p><p>----</p></h2><div>
+
+<div class="btl"><a href="#" onclick="audio.muted=true; return false">mute</a>
+<a href="mailto:letmefucking@nuke.africa?subject=some1%20has%20somethign%20to%20say%20about%20l1nux.fun&amp;body=write%20your%20shit%20here">contac webmasta</a>
 </div>
-	<h4>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<p align="center">
+<img src="https://github.com/L1nuxDotFun/cdn/raw/master/l1nux.png" width="480"><br>
+<h3><p id="subtitle"></p></h3>
+</p>
+	<h5>
 		<p>KNO56 / Arch</p>
 		<p><a href="https://steamcommunity.com/id/24-Jun/">Steam</a></p>
 		<p>- - -</p>
@@ -122,29 +84,25 @@ a:link { color:#808080; }
 		<p>- - -</p>
 		<p>Lea / Gaybuntu</p>
 		<p><a href="https://steamcommunity.com/id/dwlocalplayer/">Steam</a></p>
-	</h4>
-	
+		<p>- - -</p>	
+</h5>
 <audio autoplay loop id="new">
-  		<source src="/src/moe.mp3">
+  		<source src="/src/brooklyn.mp3">
 </audio>
-	</div>
-		<div class="btl"><a href="https://github.com/L1nuxDotFun/space-hook/" onclick="window.open(https://github.com/L1nuxDotFun/space-hook/);">space!hook</a>
-		<div class="btr"><a href="#" onclick="audio.muted=true; return false">mute</a>
-			<a href="mailto:letmefucking@nuke.africa?subject=some1%20has%20somethign%20to%20say%20about%20l1nux.fun&amp;body=write%20your%20shit%20here">contac webmästa</a>
-</div>
    <script>
-  	var audio = document.getElementById("new");
+  	var audio = document.getElementById("brooklyn");
   	audio.volume = 0.1;
    </script>
-			
-<script>
 
+
+
+<div><a href="https://github.com/L1nuxDotFun/space-hook/" onclick="window.open(https://github.com/L1nuxDotFun/space-hook/);">space!hook</a>
+<script>
 console.log(`%c|  ▄▄ •  ▄▄▄·  ▐ ▄  ▄▄ •  ▄▄ •  ▄▄▄·  ▐ ▄  ▄▄ • 
 ▐█ ▀ ▪▐█ ▀█ •█▌▐█▐█ ▀ ▪▐█ ▀ ▪▐█ ▀█ •█▌▐█▐█ ▀ ▪
 ▄█ ▀█▄▄█▀▀█ ▐█▐▐▌▄█ ▀█▄▄█ ▀█▄▄█▀▀█ ▐█▐▐▌▄█ ▀█▄
 ▐█▄▪▐█▐█ ▪▐▌██▐█▌▐█▄▪▐█▐█▄▪▐█▐█ ▪▐▌██▐█▌▐█▄▪▐█
 ·▀▀▀▀  ▀  ▀ ▀▀ █▪·▀▀▀▀ ·▀▀▀▀  ▀  ▀ ▀▀ █▪·▀▀▀▀ 
-
 `, ("font-family:monospace"));
 console.log(`%c l1nux.fun // vacnuts`, ("font-family:monospace"));
 console.log(`%c if you want to copypaste something from here im just gonna leave this here:`, ("font-family:monospace"));
@@ -152,12 +110,12 @@ console.log(`%c https://github.com/koutsie/l1nux.fun`, ("font-family:monospace")
 var subtitle = ['MEN!', '"i tell his off but him dont"', 'You got killed by AimTux', 'AimTux > All', 'I hit p with Horker', 'pls died.. for real', 'linox is OC))'][Math.floor(Math.random() * 7)];
 document.getElementById('subtitle').innerHTML = subtitle;
 </script>
-<!-- Simpleton browser anticheat -->
 <script>
 var  isChrome = !!window.chrome;
 if (isChrome) {
 	window.location.href = window.location.href.replace('://l1nux.fun','://www.youtube.com/watch?v=G9odVHfew-k');
 }
 </script>
+<p>
 </body>
 </html>
