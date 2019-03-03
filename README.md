@@ -6,3 +6,4 @@ todo:
 - fades
 - more bass
 - memes
+<img src="https://github.com/L1nuxDotFun/cdn/raw/master/epic.gif">
