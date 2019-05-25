@@ -7,4 +7,4 @@ todo:
 - more bass
 - memes
 [Donate lol](https://liberapay.com/koutsie/donate)
-<img src="https://github.com/L1nuxDotFun/cdn/raw/master/epic.gif">
+<img src="https://i.imgur.com/9DCAN5V.png">
