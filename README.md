@@ -2,7 +2,7 @@
 Official 1337 Website
 
 todo: 
-- shakes
+- shakes :heavy_check_mark: 
 - fades
 - more bass
 - memes
